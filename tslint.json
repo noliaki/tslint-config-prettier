@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "extends": ["@noliaki/tslint-config", "tslint-config-prettier"],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
